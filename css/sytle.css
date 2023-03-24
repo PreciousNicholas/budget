@@ -8,11 +8,17 @@
     padding: 20px;
     
 }
-
 .budget-expenses{
+   display: flex;
+   justify-content: space-evenly;
+
+}
+
+.budget-body{
     padding: 20px;
     background-color: white;
     display: flex;
+    flex-direction: column;
     justify-content:space-evenly ;
 
 }
